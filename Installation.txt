@@ -1,0 +1,45 @@
+
+
+Installation
+
+
+
+English:
+
+Dear reader,
+
+the Charting Library ONLY works on a REAL server, not on a virtual server like XAMPP.
+
+Instructions:
+01. Create database and set database password.
+02. Open file "reporting / starting / connection.php" with Notepad++ and enter and save the access data ($login, $password, $database).
+03. Open file "import_tables.sql" with Notepad++ and replace "name_of_database" with the name of the database in lines 24 and 25.
+04. Login to phpMyAdmin. The username is the username or FTP username from the web space provider.
+05. Select database.
+06. In the "Operations" area, set the collation to "utf8_unicode_ci" and save with "OK".
+07. In the "Home / General Settings" area, set the "Character set/collation of the MySQL connection" to "utf8_unicode_ci".
+08. In the "Import" area, click on "Browse...", select the exported sql file "import_tables.sql" and import with "OK".
+09. Log out or click on "Sign in again".
+10. Upload the Charting Library with all files and folders to the server with this database via FTP.
+11. Load file "berlin_canvas.php" with the complete URL in the browser and click on the "Start" button on the website.
+
+
+
+German:
+
+Sehr geehrter Leser,
+
+die Charting Library funktioniert NUR auf einem ECHTEN Server, nicht auf einem virtuellen Server wie XAMPP.
+
+Anleitung:
+01. Datenbank erstellen und Datenbankpasswort festlegen.
+02. Die Datei "reporting / starting / connection.php" mit Notepad++ öffnen und die Zugangsdaten ($login, $password, $database) eingeben und speichern.
+03. Die Datei "import_tables.sql" mit Notepad++ öffnen und in den Zeilen 24 und 25 "name_of_database" gegen den Namen der Datenbank ersetzen.
+04. In phpMyAdmin einloggen. Der Benutzername ist der Benutzername oder FTP-Benutzername vom Webspace-Provider.
+05. Datenbank auswählen.
+06. Im Bereich "Operationen" die Kollation auf "utf8_unicode_ci" einstellen und mit "OK" speichern.
+07. Im Bereich "Home / Allgemeine Einstellungen" den "Zeichensatz/Kollation der MySQL-Verbindung" auf "utf8_unicode_ci" einstellen.
+08. Im Bereich "Importieren" auf "Durchsuchen..." klicken, die exportierte sql-Datei "import_tables.sql" auswählen und mit "OK" importieren.
+09. Ausloggen bzw. auf "Neu anmelden" klicken.
+10. Die Charting Library mit allen Dateien und Ordnern auf den Server mit dieser Datenbank per FTP hochladen.
+11. Die Datei "berlin_canvas.php" mit der vollständigen URL im Browser laden und auf der Webseite auf den Button "Start" klicken.
